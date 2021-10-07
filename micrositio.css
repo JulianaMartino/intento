@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&family=ZCOOL+KuaiLe&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@media (min-width: 1200px){
+body{
+	background-color: #00b894;
+}
+main{
+	width: 100%;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #00b894;
+}
+header{
+	width: 100%;
+	height: 110px;
+	background-color: #0c372f;
+	align-items: center;
+}
+#logo{
+	margin-left: 15%;
+	padding-top: 12px;
+	float: left;
+}
+.logo0{
+	width: 60px;
+	height: 60px;
+}
+
+nav{
+	padding-left: 40%;
+	padding-top: 30px;
+}
+nav li{
+	display: inline-block;
+}
+nav li a{
+	float: left;
+	font-size: 20px;
+	display: block;
+	text-decoration: none;
+	padding: 8px 40px;
+	color: #ffffff;
+}
+nav ul li a:hover{
+	background-color: #120e37;
+	border-radius: 40px;
+}
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: #000000;
+}
+.apellidos{
+	float: left;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 44%;
+}
+
+.apellidos a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 15px;
+}
+section{
+	width: 100%;
+	height: 550px;
+	background-color: green;
+	background-color: #00b894;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sol{
+	margin-top: 5px;
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 35px;
+}
+.papa{
+	width: 400px;
+	height: 300px;
+	padding-left: 50px;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.relevamiento{
+	width: 900px;
+	height: 400px;
+}
+#mapa1{
+	width: 50%;
+	height: 550px;
+	float: left;
+	padding-left: 10px;
+}
+#mapa2{
+	width: 50%;
+	height: 550px;
+	float: right;
+}
+}
